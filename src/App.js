@@ -1,14 +1,17 @@
-/* eslint-disable no-undef */
 import './App.css';
+import React, { useState } from 'react';
+
+
 
 function App() {
+//useState
+  
 
   const [audioProgress, setAudioProgress] = useState(60)
 
-  const handleMusicProgressBar = () => {
-    setAudioProgress(e.target.value)
-  }
-  
+  const handleMusicProgressBar = (e) => {
+    setAudioProgress(e.target.value);
+  };
 
   return (
     <>
