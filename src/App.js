@@ -16,7 +16,8 @@ function App() {
   return (
     <>
     <div className="container">
-      <video src="./Videos/1.mp4"></video>
+      <video src="./Videos/1.mp4" autoPlay muted loop
+      className='backgroundVideo'></video>
       <div className="blackScreen"></div>
       <div className="music-Container">
         <p className='musicPlayer'>Music Player</p>

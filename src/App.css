@@ -1,1 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --minColor: #fff;
+  --mainLightColor: rgba(235,235,235,0.5);
+  --mainDimColor: rgba(228,228,228);
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.container{
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--mainColor);
+  font-family: 'Poppins';
+}
+.backgroundVideo{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+  z-index: -1;
+  filter: saturate(2.5);
+}
+#songAvatar{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
