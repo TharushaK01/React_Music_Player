@@ -30,6 +30,42 @@ body {
   z-index: -1;
   filter: saturate(2.5);
 }
+
+.blackScreen{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  pointer-events: none;
+  background-color: rgba(17, 17, 17, 0.2);
+
+}
+
+.music-Container{
+  width: 350px;
+  padding: 35px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 36px;
+  box-shadow: 0 0 20px rgba(26, 26, 26, 0.1),
+  0 0 40px rgba(26,26,26,0.1),  0 0 800px rgba(26,26,26,0.1);
+  backdrop-filter: blur(15px);
+  font-weight: 600;
+}
+
+.musicPlayer{
+  margin: 0;
+  margin-bottom: 10px;
+  color: var(--mainLightColor);
+}
+.music-Head-Name{
+  margin: 0 auto;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
 #songAvatar{
   width: 200px;
   height: 200px;
