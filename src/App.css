@@ -65,10 +65,84 @@ body {
   font-size: 1.5rem;
   text-align: center;
 }
+.music-Head-Name{
+  color: var(--mainDimColor);
+  margin: 4px 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
 
 #songAvatar{
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  margin: 18px 0;
+  position: relative;
+  cursor: pointer;
+  animation: animateAvatar .5s linear infinite;
+}
+
+@keyframes animateAvatar {
+  0%,100%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.03);
+  }
+}
+
+.musicTimeDiv{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 600;
+}
+.musicProgressBar{
+  width: 100%;
+  margin-bottom: 16px;
+  height: 10px;
+  border-radius: 5px;
+  outline: none;
+  filter: hue-rotate(20deg);
+}
+.plyBtn{
+  font-size: 32px;
+  margin: 8px 10px;
+  color: var(--mainColor);
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.musicControler{
+  cursor: pointer;
+  font-size: 28px;
+  color: var(--mainColor);
+}
+
+.changeBackBtn{
+  width: 200px;
+  height: 15px;
+  background-color: #eee;
+  position: absolute;
+  border-radius: 12px 12px 0 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  transition: .3s;
+  color: #eee;
+  cursor: pointer;
+  padding: 3px 0 0;
+  font-weight: 600;
+  text-align: center;
+}
+.changeBackBtn:hover{
+  height: 30px;
+  color: #222;
+}
+.objectFitCover{
   object-fit: cover;
+}
+.objectFitContain{
+  object-fit: contain;
 }
