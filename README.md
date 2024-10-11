@@ -77,4 +77,4 @@ We welcome contributions to enhance the project! To contribute:
 Got a question or suggestion? Feel free to reach out!
 
 - **Author**: Tharusha K  
-- **Email**: [your-email@example.com](tharushakavinda01@gmail.com)
+- **Email**: [tharushakavinda01@gmail.com](tharushakavinda01@gmail.com)
