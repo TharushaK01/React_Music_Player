@@ -3,7 +3,6 @@
 
 Welcome to **React Music Player**, a sleek, intuitive, and fully responsive music player application built with React! This project is designed to provide users with an immersive audio experience, featuring smooth animations, easy-to-use controls, and seamless music playback.
 
-![Music Player Preview](link-to-screenshot)
 
 ## 🚀 Features
 
@@ -23,7 +22,11 @@ Welcome to **React Music Player**, a sleek, intuitive, and fully responsive musi
   
 ## 🔗 Live Demo
 
-Check out the live version of the app [here](#).
+
+
+https://github.com/user-attachments/assets/a7fe1c21-3e28-4b79-b75d-49fc9e13f358
+
+
 
 ## 📂 Installation & Setup
 
@@ -49,11 +52,6 @@ Check out the live version of the app [here](#).
 
 5. **Open your browser** and visit `http://localhost:3000` to experience the music player.
 
-## 🖼️ Preview
-
-Add some screenshots or GIFs of the player in action to give users a visual glimpse.
-
-![Music Player Screenshot](link-to-another-screenshot)
 
 ## 🌟 Contributing
 
@@ -79,4 +77,4 @@ We welcome contributions to enhance the project! To contribute:
 Got a question or suggestion? Feel free to reach out!
 
 - **Author**: Tharusha K  
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **Email**: [your-email@example.com](tharushakavinda01@gmail.com)
